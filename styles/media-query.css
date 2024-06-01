@@ -18,3 +18,20 @@
         width: 70%;
     }
 }
+
+@media screen and (min-width: 992px) {
+    section#login {
+        width: 990px;
+    }
+
+    section#login > div#image {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#form {
+        float: right;
+        width: 50%;
+    }
+}
