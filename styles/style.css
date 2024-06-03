@@ -31,7 +31,7 @@ section#login {
     overflow: hidden;
 
     background-color: white;
-    height: 500px;
+    height: 515px;
     width: 250px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
@@ -59,6 +59,26 @@ div#form > h1 {
 
 div#form > p {
     font-size: 0.8em;
+}
+
+form > div.field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5f2c82;
+    justify-content: center;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+div.field > i {
+    padding-right: 7px;
+    color: white;
+}
+
+div.field > label {
+    display: none;
 }
 
 form > input[type=submit] {
